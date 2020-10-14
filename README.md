@@ -10,7 +10,7 @@ After that it is possible to rebuild individual components (GDB).
 
 #### Start GDB
 
-As normal, but in addition you need to instruct GDb to use the data directory
+As normal, but in addition you need to instruct GDB to use the data directory
 which is produced by the same build (`binutils/gdb/data-directory` in case of an
 in-source build). You can copy it to another location, as long as you tell GDB
 to use it:
