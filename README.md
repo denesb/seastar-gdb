@@ -1,8 +1,12 @@
 # seastar-gdb
 
+This repository contains a patched GDB (as a submodule), modified to be able to
+inspect the stacks of `seastar::thread` and instructions on how to use it.
+
 #### Build GDB
-It is easiest to do an in-source build in the top-level diectory. After that it
-is possible to rebbuild individual components (GDB).
+
+It is easiest to do an in-source build in the top-level diectory (`./binutils`).
+After that it is possible to rebbuild individual components (GDB).
 
 #### Start GDB
 
