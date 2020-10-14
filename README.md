@@ -6,7 +6,7 @@ inspect the stacks of `seastar::thread` and instructions on how to use it.
 #### Build GDB
 
 It is easiest to do an in-source build in the top-level diectory (`./binutils`).
-After that it is possible to rebbuild individual components (GDB).
+After that it is possible to rebuild individual components (GDB).
 
 #### Start GDB
 
