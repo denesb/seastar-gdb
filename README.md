@@ -7,6 +7,12 @@ inspect the stacks of `seastar::thread` and instructions on how to use it.
 
 It is easiest to do an in-source build in the top-level diectory (`./binutils`).
 After that it is possible to rebuild individual components (GDB).
+Build-time dependencies (besides the ones installed by [scylla.git/install-dependencies.sh](https://github.com/scylladb/scylla/tree/master/install-dependencies.sh)) (Fedora package names):
+* babeltrace
+* texinfo
+* flex
+* bison
+* bison-devel
 
 #### Start GDB
 
